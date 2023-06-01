@@ -2,13 +2,10 @@ import path from 'path'
 
 export default function MyModule(moduleOptions) {
 
+
   // Register a new plugin
-  this.addPlugin({
-    src: path.resolve(__dirname, 'plugin.js'),
-    fileName: '@luminexs/loader/index.js',
-    options: moduleOptions, // Pass module options to the plugin
-    path: path.resolve(__dirname, 'plugin.js')
-  });
+  this.addPlugin(path.resolve(__dirname, 'plugin.js'));
+
 
   
 }
