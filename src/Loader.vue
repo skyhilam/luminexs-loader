@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import CircleLoading from "@luminexs/loader/CircleLoading.vue";
+import CircleLoading from "@luminexs/loader/src/CircleLoading.vue";
 
 export default {
   components: {

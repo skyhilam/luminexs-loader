@@ -11,4 +11,4 @@ export default function MyModule(moduleOptions) {
 }
 
 // Required for Nuxt.js to recognize this as a module
-module.exports.meta = require('./package.json');
+module.exports.meta = require('../package.json');

@@ -1,7 +1,7 @@
 import Vue from 'vue';
 
 // Import the component
-import Loader from '@luminexs/loader/Loader.vue';
+import Loader from '@luminexs/loader/src/Loader.vue';
 
 // Create a new Vue.js plugin
 const MyModulePlugin = {
