@@ -1,10 +1,9 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    style="margin: auto; display: block"
     viewBox="0 0 100 100"
     preserveAspectRatio="xMidYMid"
-    class="w-20 h-20 fill-current stroke-current"
+    class="w-20 h-20 fill-current stroke-current block m-auto"
   >
     <circle
       cx="50"
